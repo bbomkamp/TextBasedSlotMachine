@@ -1,8 +1,14 @@
 
+
+# Retrieves User Deposit.
 def deposit():
+
+    #Loops til a number is returned.
     while True:
         amount = input("How much would you like to deposit to your total? $")
+        #Check if input is postive number.
         if amount.isdigit():
+            #Convert the inputted String to an Int.
             amount = int(amount)
             if amount > 0:
                 break
@@ -13,5 +19,7 @@ def deposit():
 
     return amount
 
-deposit()    
+def main():
+    balance = deposit()    
 
+main()
