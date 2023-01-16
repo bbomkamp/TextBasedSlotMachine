@@ -3,4 +3,4 @@ A Text-Based Slot Machine written in Python
 
 A project done for learning. Lots of commented code.
 
-
+*in progress*
